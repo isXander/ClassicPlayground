@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.isxander.classicplayground.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "keybinds.MinecraftMixin",
+    "keybinds.GameOptionsMixin",
+    "noclip.EntityMixin",
+    "noclip.MobMixin",
+    "noclip.PlayerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
